@@ -17,8 +17,8 @@ html {
 /* home-image */
 .home-image {
   position: relative;
-  /* height: 95vh; */
-  height: 325px;
+  height: 70vh;
+  /* height: 325px; */
 }
 
 .home-overlay {
@@ -253,7 +253,7 @@ a,a:hover{
 }
 
 .about-ics-para {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .about-bg-home-page {
@@ -504,8 +504,8 @@ transform: translateX(-50%);
 } */
 
 .owl-carousel .owl-item img {
-    /* height: 95vh; */
-    height: 325px;
+    height: 70vh;
+    /* height: 325px; */
     object-fit: cover;
     object-position: center ;
 }
