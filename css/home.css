@@ -17,7 +17,8 @@ html {
 /* home-image */
 .home-image {
   position: relative;
-  height: 95vh;
+  /* height: 95vh; */
+  height: 325px;
 }
 
 .home-overlay {
@@ -503,7 +504,10 @@ transform: translateX(-50%);
 } */
 
 .owl-carousel .owl-item img {
-    height: 95vh;
+    /* height: 95vh; */
+    height: 325px;
+    object-fit: cover;
+    object-position: center ;
 }
 .slider-home{
   position: relative;
