@@ -1,3 +1,40 @@
+<?php
+if(isset($_POST['submit'])){
+    $to = "gnanasai9966250545@gmail.com"; // this is your Email address
+    $from = $_POST['email']; // this is the sender's Email address
+    $full_name = $_POST['full_name'];
+    $email = $_POST['email'];
+    $subject = $_POST['subject'];
+    $subject2 = "We will contact you shortly";
+    $message = "Full Name : " .  $full_name . "\n"  . "Email : " . $email . "\n" . "Message : " . $_POST['message'];
+    $message2 = "We got your message " . $full_name . "\n\n" . $_POST['message'];
+
+    $headers = "From:" . $from;
+    $headers2 = "From:" . $to;
+    mail($to,$subject,$message,$headers);
+    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+    // echo "Mail Sent. Thank you " . $full_name . ", we will contact you shortly.";
+    // You can also use header('Location: thank_you.php'); to redirect to another page.
+    }
+?>
+
+<script>
+    function hideMessage(){
+      document.getElementById("connectMsg").style.display = "none"
+};
+setTimeout(hideMessage,3000);
+</script>
+
+
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -73,7 +110,7 @@
               <a href="#">Services</a>
               <ul class="nav-dropdown">
                 <li><a href="custom-solutions.html">Custom solutions(System and Sub Systems Design)</a></li>
-                  <!--   <!-- <li><a href="modems.html">Modem designs</a></li> --> -->
+                  <!--    <li><a href="modems.html">Modem designs</a></li> -->
 
                 <li><a href="embedded-solutions.html">Embedded Solutions(Hardware and Software)</a></li>
               </ul>
@@ -82,10 +119,10 @@
               <a href="#">Products</a>
               <ul class="nav-dropdown">
                 <li><a href="telecom.html">Telecom</a>
-                  
+
                 </li>
                 <li><a href="defence.html">Defence</a>
-                 
+
                 </li>
                 <li><a href="industrial.html">Industrial</a></li>
 
@@ -97,22 +134,12 @@
     </div>
   </header>
 
-    <!-- <div class="page-contact-header-image">
 
-      <div class="page-overlay">
-
-      </div>
-      <div class="container">
-        <h1 class="page-heading"><span>Contact ICS</span></h1>
-      </div>
-      <div class="header-scrolldown style-dark" onclick="scrollIntoView()"><i class="fa fa-angle-down"></i></div>
-
-    </div> -->
     <div class="top-img" style="background-image:url('images/about/4.jpg')">
       <p class="top-para">
         Contact
       </p>
-      <!-- <img src="images/about/1.jpg" class="top-img" /> -->
+
     </div>
     <div class="contact container paddingTopBottom">
           <h2 class="page-sub-heading"><span>How can ICS help you?</span></h2>
@@ -138,12 +165,13 @@
 
     <div class="row">
       <div class="col-lg-12">
-        <form class="form-contact contact_form"  method="post" id="contactForm">
+
+        <form class="form-contact contact_form" action="" method="post" id="contactForm">
           <div class="row">
 
             <div class="col-12">
               <div class="form-group">
-                <input class="form-control" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder="Enter your name" required>
+                <input class="form-control" name="full_name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder="Enter your name" required>
               </div>
             </div>
             <div class="col-12">
@@ -163,8 +191,15 @@
             </div>
           </div>
           <div class="form-group mt-3">
-            <button type="submit" class="button button-contactForm">Send Message</button>
+            <button type="submit" name="submit" class="button button-contactForm">Send Message</button>
           </div>
+          <?php
+if(isset($_POST['submit'])){
+
+    echo "<span style='color:#1D58A8' id='connectMsg'>Mail Sent. Thank you " . $full_name . ", we will contact you shortly.</span>";
+    // You can also use header('Location: thank_you.php'); to redirect to another page.
+    }
+?>
         </form>
       </div>
 
