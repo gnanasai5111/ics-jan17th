@@ -17,7 +17,7 @@ html {
 /* home-image */
 .home-image {
   position: relative;
-  height: 72vh;
+  height: 66vh;
   /* height: 325px; */
 }
 
@@ -504,7 +504,7 @@ transform: translateX(-50%);
 } */
 
 .owl-carousel .owl-item img {
-    height: 72vh;
+    height: 66vh;
     /* height: 325px; */
     object-fit: cover;
     object-position: center ;
