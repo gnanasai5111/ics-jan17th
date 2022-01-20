@@ -127,6 +127,7 @@ object-position: center;
 .feature-each-list {
   padding-left: 8px;
   margin-bottom: 16px;
+  font-size: 14px;
 }
 
 .product-img-each {
@@ -156,11 +157,13 @@ object-position: center;
 .table-specs-col {
   width: 50%;
   padding: 0 25px;
+  font-size: 14px;
 }
 
 .table-specs-col-3 {
   width: 33.33%;
   padding: 0 5px;
+  font-size: 14px;
 }
 
 .para+ul {
@@ -193,7 +196,7 @@ object-position: center;
 
 .list-icon-text {
   /* font-size: 14px; */
-  font-size: 16px;
+  font-size: 14px;
   color: #000;
   padding: 10px;
   border-bottom: 1px solid #eaeaea;
