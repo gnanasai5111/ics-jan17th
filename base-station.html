@@ -44,6 +44,15 @@
   <!-- font awesome icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <style>
+    .list-icon-text-vertical-tabs{
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #212529;
+      padding: 10px;
+    }
+  </style>
 
 </head>
 
@@ -56,7 +65,7 @@
           <a class="navbar-brand" href="index.html">
             <img src="images/ics-logo.png" class="ics-logo" title="ICS logo" alt="ics logo" height="55px" width="100%" />
           </a>
-        <!--  <img src="images/make-in-india.png" class="ics-logo make-india" title="ICS logo" alt="ics logo" height="40px" width="90" /> -->
+          <!--  <img src="images/make-in-india.png" class="ics-logo make-india" title="ICS logo" alt="ics logo" height="40px" width="90" /> -->
           <div class="nav-toggle"></div>
         </div>
         <div class="nav-menus-wrapper">
@@ -66,7 +75,10 @@
               <ul class="nav-dropdown">
                 <!-- <li><a href="aboutus.html">Our Company</a></li> -->
                 <!--<li><a href="clients.html">Clients</a></li> -->
-                <li><a href="index.html">Home</a></li><li><a href="leadership.html">Leadership Team</a></li><li><a href="qualitystandards-awards.html">Quality Standards & Awards</a></li><!--<li><a href="clients.html">Clients</a></li> -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="leadership.html">Leadership Team</a></li>
+                <li><a href="qualitystandards-awards.html">Quality Standards & Awards</a></li>
+                <!--<li><a href="clients.html">Clients</a></li> -->
 
                 <li><a href="careers.html">Careers</a></li>
                 <li><a href="contact.php">Contact</a></li>
@@ -86,19 +98,19 @@
               <a href="#">Services</a>
               <ul class="nav-dropdown">
                 <li><a href="custom-solutions.html">Custom solutions(System and Sub Systems Design)</a></li>
-                  <!--   <!-- <li><a href="modems.html">Modem designs</a></li> --> -->
+                <!--   <!-- <li><a href="modems.html">Modem designs</a></li> --> -->
 
                 <li><a href="embedded-solutions.html">Embedded Solutions(Hardware and Software)</a></li>
               </ul>
             </li>
-           <li>
+            <li>
               <a href="#">Products</a>
               <ul class="nav-dropdown">
                 <li><a href="telecom.html">Telecom</a>
-                  
+
                 </li>
                 <li><a href="defence.html">Defence</a>
-                 
+
                 </li>
                 <li><a href="industrial.html">Industrial</a></li>
 
@@ -109,20 +121,9 @@
       </nav>
     </div>
   </header>
-  <!--
-  <div class="page-careers-header-image">
 
-    <div class="page-overlay">
 
-    </div>
-    <div class="container">
-      <h1 class="page-heading"><span>Digital Mobile Radio</span></h1>
-    </div>
-    <div class="header-scrolldown style-dark" onclick="scrollIntoView()"><i class="fa fa-angle-down"></i></div>
-
-  </div> -->
-
-  <div class="container" >
+  <div class="container">
     <div class="each-product-container">
       <ol class="breadcrumb breadcrumb-navcontainer" style="padding: 1rem 1rem 0rem 0rem">
         <li class="breadcrumb-item breadcrumb-nav"><a href="index.html">Home</a></li>
@@ -140,10 +141,10 @@
       The DMR Trunk– BS mainly works as interface between two communication networks either wired or wireless. This works for trunking feature between different users. The Trunk has IP connectivity providing flexibility to connect to different
       network users / services via IP. The different modules involved in Base station with trunk are Antenna System comprises of three antennas each of 10 dBi gain covering full 360 deg HPBW, Channel Unit with RF Booster, Switches to route RF to and
       from different Antennae, filters, Diversity selection switches, controls redundancy switches, Transceiver Section, Baseband Processing and Interfaces Section built around FPGA SoC and interfaces to various devices through the designated
-      interfaces, Other Interfaces: USB interface, GPS interface, Wi-Fi interface, Bluetooth Interface, Ethernet interface and Power Supply Section accepts input from 230V AC mains provides DC 24V. Alternately, 24 V DC is also accepted for the
+      interfaces, Other Interfaces: USB interface, GPS interface, Wi-Fi interface, Bluetooth Interface, Ethernet interface and Power Supply Section accepts input from 230V AC mains provides DC 24V. Alternately, 24V DC is also accepted for the
       operation in case of no AC power availability. Auto changeover provision is built -in.
     </p>
-    <!-- <img src="images/products/lcr.png" width="100" alt="Digital Mobile Radio-LCR 400(DMR)" class="product-img-each" /> -->
+
   </div>
   <div class="container" style="padding:30px 0">
     <h2 class="page-sub-heading"><span>Trunk-Base Station Features</span></h2>
@@ -230,19 +231,28 @@
 
                   <tr class="table-specs-row">
                     <td class="table-specs-col">Frequency Range</td>
-                    <td class="table-specs-col">VHF 136-174 MHz,
-                      UHF 400-470 MHz, 800-890MHz
+                    <td class="table-specs-col">VHF 136-174 MHz
+                      ,
+                      UHF 400-470 MHz
+                      , 800-890 MHz
+
                     </td>
 
                   </tr>
                   <tr class="table-specs-row">
                     <td class="table-specs-col">Frequency increment/channel step</td>
-                    <td class="table-specs-col">VHF: 2.5kHz/3.125kHz,  UHF: 5kHz/6.25kHz</td>
+                    <td class="table-specs-col">VHF: 2.5 kHz
+                      /3.125 kHz
+                      , UHF: 5 kHz
+                      /6.25 kHz
+                    </td>
 
                   </tr>
                   <tr class="table-specs-row">
                     <td class="table-specs-col">External frequency reference</td>
-                    <td class="table-specs-col">10MHz/12.8MHz (auto detect)</td>
+                    <td class="table-specs-col">10 MHz
+                      /12.8 MHz
+                      (auto detect)</td>
                   </tr>
                   <tr class="table-specs-row">
                     <td class="table-specs-col">Packet data DMR</td>
@@ -265,12 +275,14 @@
                   </tr>
                   <tr class="table-specs-row">
                     <td class="table-specs-col">Frequency Stability</td>
-                    <td class="table-specs-col">+0.5 PPM or better</td>
+                    <td class="table-specs-col">+0.5  ppm or better</td>
 
                   </tr>
                   <tr class="table-specs-row">
                     <td class="table-specs-col">Channel Spacing </td>
-                    <td class="table-specs-col">12.5 kHz, 25 kHz</td>
+                    <td class="table-specs-col">12.5 kHz
+                      , 25 kHz
+                    </td>
 
                   </tr>
                   <tr class="table-specs-row">
@@ -278,18 +290,9 @@
                     <td class="table-specs-col">1000</td>
                   </tr>
                   <tr class="table-specs-row">
-                    <td class="table-specs-col">Dimensions </td>
-                    <td class="table-specs-col">Vendor to indicate</td>
-
-                  </tr>
-                  <tr class="table-specs-row">
-                    <td class="table-specs-col">Weight </td>
-                    <td class="table-specs-col">Vendor to indicate</td>
-
-                  </tr>
-                  <tr class="table-specs-row">
                     <td class="table-specs-col">Emission marks</td>
-                    <td class="table-specs-col"> Analog – 11K0F3E(for 12.5 kHz modulation), Digital – 7k60FXD(data), 7K60FXE(voice), 7K60F1W (voice and data) for 4FSK digital modulation</td>
+                    <td class="table-specs-col"> Analog – 11K0F3E(for 12.5 kHz
+                      modulation), Digital – 7k60FXD(data), 7K60FXE(voice), 7K60F1W (voice and data) for 4FSK digital modulation</td>
                   </tr>
                   <tr class="table-specs-row">
                     <td class="table-specs-col">Power Supply</td>
@@ -320,7 +323,7 @@
                   </tr>
                   <tr class="table-specs-row">
                     <td class="table-specs-col">FM Hum& Noise</td>
-                    <td class="table-specs-col">-40dB or better</td>
+                    <td class="table-specs-col">-40 dbor better</td>
 
                   </tr>
                   <tr class="table-specs-row">
@@ -331,7 +334,7 @@
                   <tr class="table-specs-row">
                     <td class="table-specs-col"> Conducted Spurious Emissions </td>
                     <td class="table-specs-col">
-                      <-36dBm 30MHz to1GHz and <-30dBm 1GHz to 4GHz/12.75GHz </td> </tr> <tr class="table-specs-row">
+                      <-36dBm 30 MHz to1 GHz and <-30dBm 1 GHz to 4 GHz /12.75 GHz </td> </tr> <tr class="table-specs-row">
                     <td class="table-specs-col">Audio Distortion</td>
                     <td class="table-specs-col"> 3%</td>
 
@@ -348,7 +351,10 @@
                   </tr>
                   <tr class="table-specs-row">
                     <td class="table-specs-col"> Modulation Limiting </td>
-                    <td class="table-specs-col">+/-2.5 at 12.5 kHz, +/-5.0 kHz at 25 kHz</td>
+                    <td class="table-specs-col">+/-2.5 at 12.5 kHz
+                      , +/-5.0 kHz
+                      at 25 kHz
+                    </td>
 
                   </tr>
 
@@ -371,7 +377,7 @@
 
                   <tr class="table-specs-row">
                     <td class="table-specs-col">Sensitivity (Analog)</td>
-                    <td class="table-specs-col">0.30µV at 12 dB SINAD</td>
+                    <td class="table-specs-col">0.30µV at 12  dbSINAD</td>
 
                   </tr>
 
@@ -387,12 +393,13 @@
                   </tr>
                   <tr class="table-specs-row">
                     <td class="table-specs-col">Adjacent Channel selectivity</td>
-                    <td class="table-specs-col">>65dB at 12.5 KHz</td>
+                    <td class="table-specs-col">>65 dbat 12.5 kHz
+                    </td>
 
                   </tr>
                   <tr class="table-specs-row">
                     <td class="table-specs-col">Spurious Rejection</td>
-                    <td class="table-specs-col">70 dB </td>
+                    <td class="table-specs-col">70  db</td>
                   </tr>
                   <tr class="table-specs-row">
                     <td class="table-specs-col">Hum and Noise </td>
@@ -401,7 +408,8 @@
                   </tr>
                   <tr class="table-specs-row">
                     <td class="table-specs-col">Audio Response</td>
-                    <td class="table-specs-col"> +1/-2dB (0.3-2.55 kHz)</td>
+                    <td class="table-specs-col"> +1/-2 db(0.3-2.55 kHz
+                      )</td>
 
                   </tr>
                   <tr class="table-specs-row">
@@ -410,8 +418,9 @@
 
                   </tr>
                   <tr class="table-specs-row">
-                    <td class="table-specs-col">Blocking rejection >1MHz</td>
-                    <td class="table-specs-col">100dB at 1%BER </td>
+                    <td class="table-specs-col">Blocking rejection >1 MHz
+                    </td>
+                    <td class="table-specs-col">100 dbat 1%BER </td>
                   </tr>
 
                 </table>
@@ -467,13 +476,13 @@
               <div>
                 <ul class="list-icons">
                   <li class="list-icon-text-vertical-tabs">
-                    <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                    <!-- <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i> -->
                     Separate antenna system for Tx and Rx which shall include high gain antenna system.
                     Minimum 10dBi or better for Tx (1+1) and Rx
 
                   </li>
                   <li class="list-icon-text-vertical-tabs">
-                    <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                    <!-- <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i> -->
                     2 Surge protecting device in RF cables
                   </li>
                 </ul>
@@ -486,11 +495,11 @@
               <div>
                 <ul class="list-icons">
                   <li class="list-icon-text-vertical-tabs">
-                    <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                    <!-- <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i> -->
                     Shall be modular/Expandable
                   </li>
                   <li class="list-icon-text-vertical-tabs">
-                    <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                    <!-- <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i> -->
                     2 Each channel should be configurable to traffic and control unit and vice-versa
                   </li>
                 </ul>
@@ -504,7 +513,7 @@
               <div>
                 <ul class="list-icons">
                   <li class="list-icon-text-vertical-tabs">
-                    <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                    <!-- <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i> -->
                     Shall be open standards DMR Tier-Ⅲ
                   </li>
                 </ul>
@@ -518,7 +527,7 @@
               <div>
                 <ul class="list-icons">
                   <li class="list-icon-text-vertical-tabs">
-                    <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                    <!-- <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i> -->
                     For inter cell traffic communication with microwave, optical fibre or PSTN leased line independently
                   </li>
                 </ul>
