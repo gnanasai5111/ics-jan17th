@@ -135,3 +135,42 @@ var tabLinkToActivate = function(elem) {
   $('.v-tab-pane').children('div').removeClass('show').parent().find(elem).addClass('show');
 
 };
+
+
+
+
+
+
+$('.v-tab-link1').mouseover(function() {
+
+
+  var target = $($(this).data('target')),
+    tabLink = $('.v-tab-link1[data-target="' + $(this).data('target') + '"]');
+
+  tabPanelToShow1(tabLink);
+  tabLinkToActivate1(target);
+
+});
+$('.v-tab-link1').click(function() {
+
+  var target = $($(this).data('target')),
+    tabLink = $('.v-tab-link1[data-target="' + $(this).data('target') + '"]');
+
+  tabPanelToShow1(tabLink);
+  tabLinkToActivate1(target);
+
+});
+
+
+
+
+var tabPanelToShow1 = function(elem) {
+
+  $('.v-tab-link1').removeClass('active').parent().find(elem).addClass('active');
+
+};
+
+var tabLinkToActivate1 = function(elem) {
+  $('.v-tab-pane1').children('div').removeClass('show').parent().find(elem).addClass('show');
+
+};
