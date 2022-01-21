@@ -45,7 +45,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <style>
-    .list-icon-text-vertical-tabs{
+    .list-icon-text-vertical-tabs {
       font-size: 14px;
       font-weight: 400;
       line-height: 1.5;
@@ -208,14 +208,15 @@
       <div class="container-fluid">
         <div class="row v-tabs " style="margin-top:30px;">
           <div class="col-sm-3 v-tab-head">
-            <a class="v-tab-link active" data-target="#t11">General</a>
-            <a class="v-tab-link" data-target="#t12">Transmitter</a>
-            <a class="v-tab-link" data-target="#t13">Receiver</a>
-            <a class="v-tab-link" data-target="#t14">Environmental</a>
-            <a class="v-tab-link" data-target="#t15">Antenna System</a>
+            <a class="v-tab-link active" data-target="#t11" style="padding-bottom:75px;">General</a>
+            <a class="v-tab-link" data-target="#t12" style="padding-bottom:75px;">Transmitter</a>
+            <a class="v-tab-link" data-target="#t13" style="padding-bottom:75px;">Receiver</a>
+
+            <!-- <a class="v-tab-link" data-target="#t15">Antenna System</a>
             <a class="v-tab-link" data-target="#t16">Channel Unit</a>
             <a class="v-tab-link" data-target="#t17">Air Interface Standards</a>
-            <a class="v-tab-link" data-target="#t18">Base Station to Base Station and Mater Station Control Interface</a>
+            <a class="v-tab-link" data-target="#t18">Base Station to Base Station and Mater Station Control Interface</a> -->
+            <a class="v-tab-link" data-target="#t14">Environmental</a>
 
 
           </div>
@@ -275,7 +276,7 @@
                   </tr>
                   <tr class="table-specs-row">
                     <td class="table-specs-col">Frequency Stability</td>
-                    <td class="table-specs-col">+0.5  ppm or better</td>
+                    <td class="table-specs-col">+0.5 ppm or better</td>
 
                   </tr>
                   <tr class="table-specs-row">
@@ -304,6 +305,26 @@
                     <td class="table-specs-col">AMBE+2</td>
 
                   </tr>
+                  <tr class="table-specs-row">
+                  <td class="table-specs-col">Antenna System</td>
+                  <td class="table-specs-col">Separate antenna system for Tx and Rx which shall include high gain antenna system. Minimum 10dBi or better for Tx (1+1) and Rx ,2 Surge protecting device in RF cables</td>
+
+                </tr>
+                <tr class="table-specs-row">
+                  <td class="table-specs-col">Channel Unit</td>
+                  <td class="table-specs-col">Shall be modular/Expandable , 2 Each channel should be configurable to traffic and control unit and vice-versa</td>
+
+                </tr>
+                <tr class="table-specs-row">
+                  <td class="table-specs-col">Air Interface Standards</td>
+                  <td class="table-specs-col">Shall be open standards DMR Tier-Ⅲ</td>
+
+                </tr>
+                <tr class="table-specs-row">
+                  <td class="table-specs-col">Base Station to Base Station and Mater Station Control Interface</td>
+                  <td class="table-specs-col">For inter cell traffic communication with microwave, optical fibre or PSTN leased line independently</td>
+
+                </tr>
 
                 </table>
 
@@ -377,7 +398,7 @@
 
                   <tr class="table-specs-row">
                     <td class="table-specs-col">Sensitivity (Analog)</td>
-                    <td class="table-specs-col">0.30µV at 12  dbSINAD</td>
+                    <td class="table-specs-col">0.30µV at 12 dbSINAD</td>
 
                   </tr>
 
@@ -399,7 +420,7 @@
                   </tr>
                   <tr class="table-specs-row">
                     <td class="table-specs-col">Spurious Rejection</td>
-                    <td class="table-specs-col">70  db</td>
+                    <td class="table-specs-col">70 db</td>
                   </tr>
                   <tr class="table-specs-row">
                     <td class="table-specs-col">Hum and Noise </td>
@@ -428,6 +449,72 @@
               </div>
 
             </div>
+
+            <!-- <a class="v-tab-head v-tab-link" data-target="#t15">Antenna System</a>
+            <div id="t15" class="collapse">
+              <div>
+                <ul class="list-icons">
+                  <li class="list-icon-text-vertical-tabs">
+
+                    Separate antenna system for Tx and Rx which shall include high gain antenna system.
+                    Minimum 10dBi or better for Tx (1+1) and Rx
+
+                  </li>
+                  <li class="list-icon-text-vertical-tabs">
+
+                    2 Surge protecting device in RF cables
+                  </li>
+                </ul>
+
+              </div>
+
+            </div>
+            <a class="v-tab-head v-tab-link" data-target="#t16">Channel Unit</a>
+            <div id="t16" class="collapse">
+              <div>
+                <ul class="list-icons">
+                  <li class="list-icon-text-vertical-tabs">
+
+                    Shall be modular/Expandable
+                  </li>
+                  <li class="list-icon-text-vertical-tabs">
+
+                    2 Each channel should be configurable to traffic and control unit and vice-versa
+                  </li>
+                </ul>
+
+
+              </div>
+
+            </div>
+            <a class="v-tab-head v-tab-link" data-target="#t17">Air Interface Standards</a>
+            <div id="t17" class="collapse">
+              <div>
+                <ul class="list-icons">
+                  <li class="list-icon-text-vertical-tabs">
+
+                    Shall be open standards DMR Tier-Ⅲ
+                  </li>
+                </ul>
+
+
+              </div>
+
+            </div>
+            <a class="v-tab-head v-tab-link" data-target="#t18">Base Station to Base Station and Mater Station Control Interface</a>
+            <div id="t18" class="collapse">
+              <div>
+                <ul class="list-icons">
+                  <li class="list-icon-text-vertical-tabs">
+
+                    For inter cell traffic communication with microwave, optical fibre or PSTN leased line independently
+                  </li>
+                </ul>
+
+
+              </div>
+
+            </div> -->
             <a class="v-tab-head v-tab-link" data-target="#t14">Environmental</a>
             <div id="t14" class="collapse">
               <div>
@@ -466,71 +553,6 @@
                   </tr>
 
                 </table>
-
-
-              </div>
-
-            </div>
-            <a class="v-tab-head v-tab-link" data-target="#t15">Antenna System</a>
-            <div id="t15" class="collapse">
-              <div>
-                <ul class="list-icons">
-                  <li class="list-icon-text-vertical-tabs">
-                    <!-- <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i> -->
-                    Separate antenna system for Tx and Rx which shall include high gain antenna system.
-                    Minimum 10dBi or better for Tx (1+1) and Rx
-
-                  </li>
-                  <li class="list-icon-text-vertical-tabs">
-                    <!-- <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i> -->
-                    2 Surge protecting device in RF cables
-                  </li>
-                </ul>
-
-              </div>
-
-            </div>
-            <a class="v-tab-head v-tab-link" data-target="#t16">Channel Unit</a>
-            <div id="t16" class="collapse">
-              <div>
-                <ul class="list-icons">
-                  <li class="list-icon-text-vertical-tabs">
-                    <!-- <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i> -->
-                    Shall be modular/Expandable
-                  </li>
-                  <li class="list-icon-text-vertical-tabs">
-                    <!-- <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i> -->
-                    2 Each channel should be configurable to traffic and control unit and vice-versa
-                  </li>
-                </ul>
-
-
-              </div>
-
-            </div>
-            <a class="v-tab-head v-tab-link" data-target="#t17">Air Interface Standards</a>
-            <div id="t17" class="collapse">
-              <div>
-                <ul class="list-icons">
-                  <li class="list-icon-text-vertical-tabs">
-                    <!-- <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i> -->
-                    Shall be open standards DMR Tier-Ⅲ
-                  </li>
-                </ul>
-
-
-              </div>
-
-            </div>
-            <a class="v-tab-head v-tab-link" data-target="#t18">Base Station to Base Station and Mater Station Control Interface</a>
-            <div id="t18" class="collapse">
-              <div>
-                <ul class="list-icons">
-                  <li class="list-icon-text-vertical-tabs">
-                    <!-- <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i> -->
-                    For inter cell traffic communication with microwave, optical fibre or PSTN leased line independently
-                  </li>
-                </ul>
 
 
               </div>
