@@ -162,7 +162,7 @@
 
 /* nav pills */
 .nav-pills .nav-link.active {
-  color: #1D58A8;
+  color: #1D58A8 !important;
   border-bottom: 1px solid #1D58A8;
   border-radius: 0px;
   background-color: transparent;
@@ -228,4 +228,29 @@ width: 100%;
     display: block;
   }
 
+}
+/* job desc */
+.job-desc{
+  border: 1px solid #ebebeb;
+  padding: 10px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+.job-desc h5{
+  margin: 0;
+  font-size: 1rem;
+  color: #1D58A8;
+}
+.list-icon-job{
+  color: #1D58A8;
+  
+    font-size: 14px !important;
+   
+}
+
+.popup-job{
+  padding: 20px;
 }
