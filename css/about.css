@@ -254,3 +254,13 @@ width: 100%;
 .popup-job{
   padding: 20px;
 }
+.job-btn{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1D58A8;
+  color: #fff;
+}
+.job-btn:hover{
+  text-decoration: none;
+  color: #fff;
+}
