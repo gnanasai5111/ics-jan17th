@@ -103,7 +103,7 @@ setTimeout(hideMessage,3000);
                 </li>
                 <li><a href="networking.html">Networking</a></li>
                 <li><a href="rf-microwave.html">RF and Microwave</a></li>
-                <li><a href="image-processing.html">Image Processing</a></li>
+                <li><a href="image-processing.html">Image Processing & Computer Vision</a></li>
               </ul>
             </li>
             <li>
