@@ -63,7 +63,7 @@
     }
 
     .breadcrumb {
-      padding: 0.75rem 2rem;
+      padding: 0.75rem 5%;
     }
   </style>
 
@@ -87,34 +87,11 @@
             <li>
               <a href="#">About us</a>
               <ul class="nav-dropdown">
-                <!-- <li><a href="aboutus.html">Our Company</a></li> -->
-                <!--<li><a href="clients.html">Clients</a></li> -->
                 <li><a href="index.html">Home</a></li>
                 <li><a href="leadership.html">Leadership Team</a></li>
                 <li><a href="qualitystandards-awards.html">Quality Standards & Awards</a></li>
-                <!--<li><a href="clients.html">Clients</a></li> -->
-
                 <li><a href="careers.html">Careers</a></li>
                 <li><a href="contact.php">Contact</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="#">Technologies</a>
-              <ul class="nav-dropdown">
-                <li><a href="signal-processing.html">Signal Processing</a>
-                </li>
-                <li><a href="networking.html">Networking</a></li>
-                <li><a href="rf-microwave.html">RF and Microwave</a></li>
-                <li><a href="image-processing.html">Image Processing & Computer Vision</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="#">Services</a>
-              <ul class="nav-dropdown">
-                <li><a href="custom-solutions.html">Custom solutions(System and Sub Systems Design)</a></li>
-                <!--    <li><a href="modems.html">Modem designs</a></li> -->
-
-                <li><a href="embedded-solutions.html">Embedded Solutions(Hardware and Software)</a></li>
               </ul>
             </li>
             <li>
@@ -130,23 +107,32 @@
 
               </ul>
             </li>
+            <li>
+              <a href="#">Services</a>
+              <ul class="nav-dropdown">
+                <li><a href="custom-solutions.html">Custom solutions(System and Sub Systems Design)</a></li>
+                <li><a href="embedded-solutions.html">Embedded Solutions(Hardware and Software)</a></li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="#">Technologies</a>
+              <ul class="nav-dropdown">
+                <li><a href="signal-processing.html">Signal Processing</a>
+                </li>
+                <li><a href="networking.html">Networking</a></li>
+                <li><a href="rf-microwave.html">RF and Microwave</a></li>
+                <li><a href="image-processing.html">Image Processing & Computer Vision</a></li>
+              </ul>
+            </li>
+
+
           </ul>
         </div>
       </nav>
     </div>
   </header>
-  <!--
-  <div class="page-careers-header-image">
-
-    <div class="page-overlay">
-
-    </div>
-    <div class="container">
-      <h1 class="page-heading"><span>Digital Mobile Radio</span></h1>
-    </div>
-    <div class="header-scrolldown style-dark" onclick="scrollIntoView()"><i class="fa fa-angle-down"></i></div>
-
-  </div> -->
+  
   <div class="each-product-container">
 
     <div class="each-product-box">
@@ -183,16 +169,17 @@
     <img src="images/products/lcr.png" width="100" alt="Digital Mobile Radio-LCR 400(DMR)" class="product-img-each" />
   </div>
   <div class="container" style="padding:30px 0">
-    <h2 class="page-sub-heading"><span>Digital Mobile Radio(DMR) Features</span></h2>
+    <!-- <h2 class="page-sub-heading"><span>Digital Mobile Radio(DMR) Features</span></h2>
     <div class="line">
 
     </div>
     <div class="feature-img-box">
       <img alt="" src="https://www.qualcomm.com/sites/ember/files/styles/optimize/public/component-item/flexible-block/thumb/teal-check-25x25_121.png?itok=rimvh_oM" class="feature-img">
-    </div>
-    <h2 class="feature-heading">
+    </div> -->
+    <h2 class="page-sub-heading" style="text-align:left;padding:0px 0 15px 0px">Features</h2>
+    <!-- <h2 class="feature-heading">
       <span> Features</span>
-    </h2>
+    </h2> -->
     <div class="row">
 
       <div class="col-lg-6 col-md-12">
@@ -210,7 +197,7 @@
             </li>
 
             <li class="feature-each-list"> 4-FSK modulation (constant envelope)</li>
-            <li class="feature-each-list"> 2-slot TDMA Channel. Built around a 30ms Slot structure</li>
+            <li class="feature-each-list"> 2-slot TDMA Channel. Built around a 30 ms Slot structure</li>
 
           </ul>
         </div>
@@ -241,12 +228,13 @@
 
   </div>
   <div class="features" id="features">
-    <section class="container-fluid" style="padding:30px 0">
-      <h2 class="page-sub-heading"><span>Digital Mobile Radio(DMR) Specifications</span></h2>
-      <div class="line">
-      </div>
+    <section class="container" style="padding:30px 0">
+      <h2 class="page-sub-heading" style="text-align:left;">Specifications</h2>
+      <!-- <h2 class="page-sub-heading"><span> Specifications</span></h2> -->
+      <!-- <div class="line">
+      </div> -->
 
-      <div class="container-fluid">
+      <div class="container">
         <div class="row v-tabs " style="margin-top:30px;">
           <div class="col-sm-3 v-tab-head">
             <a class="v-tab-link active" data-target="#t11" style="padding-bottom:75px;">General</a>
@@ -358,7 +346,7 @@ UHF 400-470 MHz, 800-890MHz
                   </tr>
                   <tr class="table-specs-row">
                     <td class="table-specs-col">Digital / Analog Battery Life, High Capacity Battery</td>
-                    <td class="table-specs-col">2600mAh and will charge within 2-4 hrs
+                    <td class="table-specs-col">2600 mAh and will charge within 2-4 hrs
 
                   </tr>
                   <tr class="table-specs-row">
@@ -411,7 +399,7 @@ UHF 400-470 MHz, 800-890MHz
                   </tr>
                   <tr class="table-specs-row">
                     <td class="table-specs-col">Time To First Fix, Cold Start</td>
-                    <td class="table-specs-col"> < 32s
+                    <td class="table-specs-col"> < 32 s
 
                   </tr>
                   <tr class="table-specs-row">
@@ -421,50 +409,12 @@ UHF 400-470 MHz, 800-890MHz
                   </tr>
                   <tr class="table-specs-row">
                     <td class="table-specs-col">Horizontal Accuracy</td>
-                    <td class="table-specs-col">< 1.5m
+                    <td class="table-specs-col">< 1.5 m
 
                   </tr>
 
 
-                  <!-- <tr class="table-specs-row">
-                    <td class="table-specs-col">Duty cycle 5/5/90</td>
-                    <td class="table-specs-col">Digital : 10Hrs & Analog: 8Hrs</td>
 
-                  </tr>
-                  <tr class="table-specs-row">
-                    <td class="table-specs-col">RF Output</td>
-                    <td class="table-specs-col">4 W/ 5 W (Programmable )</td>
-
-                  </tr>
-                  <tr class="table-specs-row">
-                    <td class="table-specs-col">Digital Modulation</td>
-                    <td class="table-specs-col">4FSK</td>
-
-                  </tr>
-                  <tr class="table-specs-row">
-                    <td class="table-specs-col">Modulation Limiting</td>
-                    <td class="table-specs-col"> ±2.5 kHz
-                      (12.5 kHz
-                      channel)</td>
-                  </tr>
-                  <tr class="table-specs-row">
-                    <td class="table-specs-col">FM Hum and Noise</td>
-                    <td class="table-specs-col">-40 db(12.5 kHz
-                      channel)</td>
-
-                  </tr>
-                  <tr class="table-specs-row">
-                    <td class="table-specs-col">Model No : LCR200 </td>
-                    <td class="table-specs-col">without display and keypad
-                    </td>
-
-                  </tr>
-                  <tr class="table-specs-row">
-                    <td class="table-specs-col">Model No : LCR400</td>
-                    <td class="table-specs-col">with keypad and display
-                    </td>
-
-                  </tr> -->
 
                 </table>
 
@@ -477,22 +427,6 @@ UHF 400-470 MHz, 800-890MHz
               <div>
                 <table class="table-specs">
 
-                  <!-- <tr class="table-specs-row">
-                    <td class="table-specs-col">Frequency Stability</td>
-                    <td class="table-specs-col">Frequency Stability +/-0.5 ppm</td>
-
-                  </tr>
-                  <tr class="table-specs-row">
-                    <td class="table-specs-col">Adjacent Channel Power</td>
-                    <td class="table-specs-col">60 db(12.5 kHz
-                      channel)</td>
-
-                  </tr>
-                  <tr class="table-specs-row">
-                    <td class="table-specs-col">Digital Vocoder</td>
-                    <td class="table-specs-col">AMBE+2</td>
-
-                  </tr> -->
                   <tr class="table-specs-row">
                     <td class="table-specs-col">4FSK Digital Modulation</td>
                     <td class="table-specs-col">12.5 kHz Data: 7K60F1D and 7K60FXD,<br />
@@ -502,7 +436,7 @@ Combination of 12.5 kHz Voice and Data: 7K60F1W</td>
                   </tr>
                   <tr class="table-specs-row">
                     <td class="table-specs-col">Modulation Deviation</td>
-                    <td class="table-specs-col">± 2.5 KHz at 12.5 KHz
+                    <td class="table-specs-col">± 2.5 kHz at 12.5 kHz
               </td>
 
                   </tr>
@@ -524,14 +458,14 @@ Combination of 12.5 kHz Voice and Data: 7K60F1W</td>
                   </tr>
                   <tr class="table-specs-row">
                     <td class="table-specs-col">Adjacent Channel Power</td>
-                    <td class="table-specs-col">60dB (12.5 kHz channel),<br />
+                    <td class="table-specs-col">60 dB (12.5 kHz channel),<br />
 
-70dB (25 kHz channel)</td>
+70 dB (25 kHz channel)</td>
 
                   </tr>
                   <tr class="table-specs-row">
                     <td class="table-specs-col">FM Hum and Noise</td>
-                    <td class="table-specs-col">-34dB @ 12.5 KHz</td>
+                    <td class="table-specs-col">-34 dB @ 12.5 kHz</td>
 
                   </tr>
                   <tr class="table-specs-row">
@@ -547,23 +481,23 @@ Combination of 12.5 kHz Voice and Data: 7K60F1W</td>
                   </tr>
                   <tr class="table-specs-row">
                     <td class="table-specs-col">Modulation Sensitivity</td>
-                    <td class="table-specs-col">1 to 10 mV at 1 KHz at mic. Input for (+/-)1.5 kHz (for 12.5 kHz channel spacing) standard deviation</td>
+                    <td class="table-specs-col">1 to 10 mV at 1 kHz at mic. Input for (+/-)1.5 kHz (for 12.5 kHz channel spacing) standard deviation</td>
 
                   </tr>
                   <tr class="table-specs-row">
                     <td class="table-specs-col">Modulation Distortion</td>
-                    <td class="table-specs-col">Less than 3% at 1 KHz reference for (+/-) 1.5 kHz (for 12.5 kHz channel spacing) standard deviation
+                    <td class="table-specs-col">Less than 3% at 1 kHz reference for (+/-) 1.5 kHz (for 12.5 kHz channel spacing) standard deviation
                     </td>
 
                   </tr>
                   <tr class="table-specs-row">
                     <td class="table-specs-col">Modulation Fidelity / Audio Response</td>
-                    <td class="table-specs-col">(+) 1, (-) 3dB for 6dB/Octave Pre-emphasis characteristic from 350Hz to 2700 Hz with 1 KHz as reference</td>
+                    <td class="table-specs-col">(+) 1, (-) 3 dB for 6 dB/Octave Pre-emphasis characteristic from 350 Hz to 2700 Hz with 1 kHz as reference</td>
 
                   </tr>
                   <tr class="table-specs-row">
                     <td class="table-specs-col">Spurious emission</td>
-                    <td class="table-specs-col">Better than 70dB</td>
+                    <td class="table-specs-col">Better than 70 dB</td>
 
                   </tr>
                   <tr class="table-specs-row">
@@ -599,34 +533,10 @@ Combination of 12.5 kHz Voice and Data: 7K60F1W</td>
 
 
 
-                  <!-- <tr class="table-specs-row">
-                    <td class="table-specs-col">Audio Distortion</td>
-                    <td class="table-specs-col">Less than 3%</td>
-
-                  </tr>
 
                   <tr class="table-specs-row">
-                    <td class="table-specs-col">AMBE+2</td>
-                    <td class="table-specs-col">0.3μV (12 dbSINAD) & Digital: 0.3 μV at 5% BER</td>
-
-                  </tr>
-                  <tr class="table-specs-row">
-                    <td class="table-specs-col">Adjacent Channel Selectivity</td>
-                    <td class="table-specs-col">60 dB</td>
-
-                  </tr>
-                  <tr class="table-specs-row">
-                    <td class="table-specs-col">Intermodulation</td>
-                    <td class="table-specs-col">70 dB</td>
-
-                  </tr>
-                  <tr class="table-specs-row">
-                    <td class="table-specs-col">Audio Output</td>
-                    <td class="table-specs-col">1 W</td>
-                  </tr> -->
-                  <tr class="table-specs-row">
-                    <td class="table-specs-col">Analog Sensitivity (12dB SINAD)</td>
-                    <td class="table-specs-col">Better  than  0.25  µV  for  12dB  SINAD</td>
+                    <td class="table-specs-col">Analog Sensitivity (12 dB SINAD)</td>
+                    <td class="table-specs-col">Better  than  0.25  µV  for  12 dB  SINAD</td>
 
                   </tr>
 
@@ -647,7 +557,7 @@ Combination of 12.5 kHz Voice and Data: 7K60F1W</td>
                   </tr>
                   <tr class="table-specs-row">
                     <td class="table-specs-col">Adjacent Channel Selectivity, (TIA603D)-2T</td>
-                    <td class="table-specs-col">Better than 60dB for 12.5 KHz channel separation</td>
+                    <td class="table-specs-col">Better than 60dB for 12.5 kHz channel separation</td>
 
                   </tr>
                   <tr class="table-specs-row">
@@ -657,7 +567,7 @@ Combination of 12.5 kHz Voice and Data: 7K60F1W</td>
                   </tr>
                   <tr class="table-specs-row">
                     <td class="table-specs-col">Hum and Noise</td>
-                    <td class="table-specs-col">-34dB @ 12.5 KHz, -40 dB @ 25 </td>
+                    <td class="table-specs-col">-34 dB @ 12.5 kHz, -40 dB @ 25 </td>
                   </tr>
                   <tr class="table-specs-row">
                     <td class="table-specs-col">Squelch Sensitivity</td>
@@ -675,47 +585,6 @@ Combination of 12.5 kHz Voice and Data: 7K60F1W</td>
               <div>
                 <table class="table-specs">
 
-                  <!-- <tr class="table-specs-row">
-                    <td class="table-specs-col">Operating Temperature</td>
-                    <td class="table-specs-col">-30°C to +55°C</td>
-
-                  </tr>
-                  <tr class="table-specs-row">
-                    <td class="table-specs-col">Vibration</td>
-                    <td class="table-specs-col">MIL-STD -810 F/G</td>
-
-                  </tr>
-                  <tr class="table-specs-row">
-                    <td class="table-specs-col">Shock & Drop</td>
-                    <td class="table-specs-col">MIL-STD -810 F/G</td>
-
-                  </tr>
-
-                  <tr class="table-specs-row">
-                    <td class="table-specs-col">Humidity</td>
-                    <td class="table-specs-col">95 % Max. at +40°C (Non condensing)</td>
-
-                  </tr>
-                  <tr class="table-specs-row">
-                    <td class="table-specs-col">Sensitivity (Analog) </td>
-                    <td class="table-specs-col">: 0.3 uV (12 dbSINAD)</td>
-
-                  </tr>
-                  <tr class="table-specs-row">
-                    <td class="table-specs-col">Sensitivity (Digital) </td>
-                    <td class="table-specs-col">0.3 uV at 5% BER </td>
-
-                  </tr>
-                  <tr class="table-specs-row">
-                    <td class="table-specs-col">Weight</td>
-                    <td class="table-specs-col">440 gms</td>
-
-                  </tr>
-                  <tr class="table-specs-row">
-                    <td class="table-specs-col">Form factor</td>
-                    <td class="table-specs-col">Handheld - WALKI-TALKIE</td>
-
-                  </tr> -->
 
 
                   <tr class="table-specs-row">

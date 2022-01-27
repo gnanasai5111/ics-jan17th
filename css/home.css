@@ -660,11 +660,14 @@ canvas {
 
 
 /* vertical pills */
+/* .v-tab-head,.v-tab-pane{
+  padding: 0;
+} */
 .features .v-tabs .v-tab-head a, .features .v-tabs a.v-tab-head {
   color: #292929;
   cursor: pointer;
   display: block;
-  padding: 15px 30px 15px 15px;
+  padding: 15px 10px 15px 0px;
   border-right: 1px solid #1D58A8;
   margin: 0;
   text-align: right;
