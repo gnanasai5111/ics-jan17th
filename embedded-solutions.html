@@ -114,7 +114,7 @@
   </header>
   <div class="top-img" style="background-image:url('images/home-slider/3.jpg')">
     <p class="top-para">
-      <span class="container" style="display:block;">
+      <span class="container" style="display:block;padding:0;">
         Embedded Solutions
       </span>
 
@@ -128,440 +128,465 @@
 
 
   <div class="container-fluid paddingBottom ">
+    <ul class="nav nav-pills mb-3 awards-list" id="pills-tab" role="tablist" style="margin-top:30px;">
+      <li class="nav-item">
+        <a class="nav-link active" style="font-size: 1.4rem;color:#000;" id="pills-one-tab" data-toggle="pill" href="#pills-one" role="tab" aria-controls="pills-one" aria-selected="true">Hardware Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style="font-size: 1.4rem;color:#000;" id="pills-two-tab" data-toggle="pill" href="#pills-two" role="tab" aria-controls="pills-two" aria-selected="false">Software Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style="font-size: 1.4rem;color:#000;" id="pills-three-tab" data-toggle="pill" href="#pills-three" role="tab" aria-controls="pills-three" aria-selected="false">Application Software Services</a>
+
+      </li>
+    </ul>
+
+
 
     <div class="tab-content" id="pills-tabContent">
+      <div class="tab-pane fade show active" id="pills-one" role="tabpanel" aria-labelledby="pills-one-tab">
+
+
         <div class="features" id="features">
-          <section class="container" style="padding:30px 0">
+          <section class="container" style="padding:30px 15px;">
             <h2 class="page-sub-heading" style="text-align:left;">Hardware Services </h2>
+            <div class="container">
+              <div class="row v-tabs " style="margin-top:30px;">
+                <div class="col-sm-3 v-tab-head">
+                  <a class="v-tab-link active" data-target="#t2" style="padding-bottom:100px">Hardware Design & Development</a>
+                  <a class="v-tab-link" data-target="#t1" style="padding-bottom:100px">Software Design & Development</a>
 
-
-      <div class="container">
-            <div class="row v-tabs " style="margin-top:30px;">
-              <div class="col-sm-3 v-tab-head">
-                <a class="v-tab-link active" data-target="#t2" style="padding-bottom:100px">Hardware Design & Development</a>
-                <a class="v-tab-link" data-target="#t1" style="padding-bottom:100px">Software Design & Development</a>
-
-                <a class="v-tab-link" data-target="#t3" style="padding-bottom:140px">Form Factors</a>
-
-              </div>
-              <div class="col-sm-9 v-tab-pane">
-                <a class="v-tab-head v-tab-link active" data-target="#t2">Hardware Design & Development</a>
-                <div id="t2" class="collapse show">
-                  <div style="margin:25px;">
-                    <ul class="list-icons">
-                  <li  class="list-icon-text">
-                    <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                      Embedded Design: micro controllers, ATMEL Series, ARM7, Keil etc.
-                  </li>
-                  <li  class="list-icon-text">
-                    <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                    DSP Based Design: IDE : VDSP++
-                  </li>
-                  <li  class="list-icon-text">
-                    <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                    VLSI Design
-                  </li>
-
-                  <li  class="list-icon-text">
-                    <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                     ORCAD Schematic Designs
-                  </li>
-                  <li  class="list-icon-text">
-                    <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                     Rugged VME, PMC, PCI, PCIe hardware
-                  </li>
-                  <li  class="list-icon-text">
-                    <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                    Platforms (Architectures): OMAP, Da-Vinci, ARM, PowerPC, ADSP, Tiger SHARC etc.
-                  </li>
-                  <li  class="list-icon-text">
-                    <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                    Xilinx and Altera FPGAs -Kintex7, Virtex6, Spartan6, Virtex5, Virtex4, Stratix etc.
-                  </li>
-                  <li  class="list-icon-text">
-                    <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                     Memories –DDR3, EMMC Flash, NOR,NAND flashes
-                  </li>
-                  <li  class="list-icon-text">
-                    <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                     High speed DUC/DDCs
-                  </li>
-                  <li  class="list-icon-text">
-                    <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                     ADC/DACs converters
-                  </li>
-                  <li  class="list-icon-text">
-                    <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                     Board Design
-                  </li>
-                  <li  class="list-icon-text">
-                    <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                     MX platforms
-                  </li>
-                  <li  class="list-icon-text">
-                    <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                     FPGA
-                  </li>
-
-
-                </ul>
-
-
-                  </div>
+                  <a class="v-tab-link" data-target="#t3" style="padding-bottom:140px">Form Factors</a>
 
                 </div>
-                <a class="v-tab-head v-tab-link" data-target="#t1">Software Design & Development</a>
-                <div id="t1" class="collapse">
-                  <div style="margin:25px;">
-                    <ul class="list-icons">
-                  <li  class="list-icon-text">
-                    <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                     RTOS like Vx Works, Lynx OS & RT Linux
-                  </li>
-                  <li  class="list-icon-text">
-                    <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                    Device Driver Development in Windows, Linux
-                  </li>
+                <div class="col-sm-9 v-tab-pane">
+                  <a class="v-tab-head v-tab-link active" data-target="#t2">Hardware Design & Development</a>
+                  <div id="t2" class="collapse show">
+                    <div style="margin:25px;">
+                      <ul class="list-icons">
+                        <li class="list-icon-text">
+                          <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                          Embedded Design: micro controllers, ATMEL Series, ARM7, Keil etc.
+                        </li>
+                        <li class="list-icon-text">
+                          <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                          DSP Based Design: IDE : VDSP++
+                        </li>
+                        <li class="list-icon-text">
+                          <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                          VLSI Design
+                        </li>
 
-                  <li  class="list-icon-text">
-                    <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                    Protocol: UDP, TCP/IP, SIP,SDP, SNMP, RTP & C
-                  </li>
-                  <li  class="list-icon-text">
-                    <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                    BSP,SKT and UIs
-                  </li>
+                        <li class="list-icon-text">
+                          <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                          ORCAD Schematic Designs
+                        </li>
+                        <li class="list-icon-text">
+                          <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                          Rugged VME, PMC, PCI, PCIe hardware
+                        </li>
+                        <li class="list-icon-text">
+                          <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                          Platforms (Architectures): OMAP, Da-Vinci, ARM, PowerPC, ADSP, Tiger SHARC etc.
+                        </li>
+                        <li class="list-icon-text">
+                          <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                          Xilinx and Altera FPGAs -Kintex7, Virtex6, Spartan6, Virtex5, Virtex4, Stratix etc.
+                        </li>
+                        <li class="list-icon-text">
+                          <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                          Memories –DDR3, EMMC Flash, NOR,NAND flashes
+                        </li>
+                        <li class="list-icon-text">
+                          <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                          High speed DUC/DDCs
+                        </li>
+                        <li class="list-icon-text">
+                          <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                          ADC/DACs converters
+                        </li>
+                        <li class="list-icon-text">
+                          <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                          Board Design
+                        </li>
+                        <li class="list-icon-text">
+                          <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                          MX platforms
+                        </li>
+                        <li class="list-icon-text">
+                          <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                          FPGA
+                        </li>
 
 
-                </ul>
+                      </ul>
+
+
+                    </div>
 
                   </div>
+                  <a class="v-tab-head v-tab-link" data-target="#t1">Software Design & Development</a>
+                  <div id="t1" class="collapse">
+                    <div style="margin:25px;">
+                      <ul class="list-icons">
+                        <li class="list-icon-text">
+                          <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                          RTOS like Vx Works, Lynx OS & RT Linux
+                        </li>
+                        <li class="list-icon-text">
+                          <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                          Device Driver Development in Windows, Linux
+                        </li>
 
-                </div>
-                <a class="v-tab-head v-tab-link" data-target="#t3">Form Factors</a>
-                <div id="t3" class="collapse">
-                  <div style="margin:25px;">
-                    <ul class="list-icons">
-                      <li  class="list-icon-text">
-                        <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                        <li class="list-icon-text">
+                          <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                          Protocol: UDP, TCP/IP, SIP,SDP, SNMP, RTP & C
+                        </li>
+                        <li class="list-icon-text">
+                          <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                          BSP,SKT and UIs
+                        </li>
+
+
+                      </ul>
+
+                    </div>
+
+                  </div>
+                  <a class="v-tab-head v-tab-link" data-target="#t3">Form Factors</a>
+                  <div id="t3" class="collapse">
+                    <div style="margin:25px;">
+                      <ul class="list-icons">
+                        <li class="list-icon-text">
+                          <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
                           Rugged/MIL Standards
-                      </li>
-                      <li  class="list-icon-text">
-                        <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                        Automotive Standards
-                      </li>
-                      <li  class="list-icon-text">
-                        <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                         Commercial Grade
-                      </li>
-                      <li  class="list-icon-text">
-                        <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                        </li>
+                        <li class="list-icon-text">
+                          <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                          Automotive Standards
+                        </li>
+                        <li class="list-icon-text">
+                          <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                          Commercial Grade
+                        </li>
+                        <li class="list-icon-text">
+                          <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
                           Vehicle Mountable/Handheld
-                      </li>
+                        </li>
 
-                      <li  class="list-icon-text">
-                        <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                        Rack Mounted/Miniature Design
-                      </li>
-
-
+                        <li class="list-icon-text">
+                          <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                          Rack Mounted/Miniature Design
+                        </li>
 
 
 
-                    </ul>
+
+
+                      </ul>
+
+                    </div>
 
                   </div>
 
+
+
                 </div>
-
-
-
               </div>
             </div>
+          </section>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="pills-two" role="tabpanel" aria-labelledby="pills-two-tab">
+        <div class="container-fluid">
+          <div class="features" id="features">
+            <section class="container" style="padding:30px 15px;">
+              <h2 class="page-sub-heading" style="text-align:left;"> Software Services</h2>
+
+
+              <div class="container">
+                <div class="row v-tabs2 " style="margin-top:30px;">
+                  <div class="col-sm-3 v-tab-head2">
+                    <a class="v-tab-link2  active" data-target="#t21" style="padding-bottom:15px;">System Architecture</a>
+                    <a class="v-tab-link2 " data-target="#t22" style="padding-bottom:15px;">Algorithm Development</a>
+                    <a class="v-tab-link2" data-target="#t23" style="padding-bottom:15px;">Tools</a>
+                    <a class="v-tab-link2 " data-target="#t24" style="padding-bottom:15px;">Porting</a>
+
+
+                  </div>
+                  <div class="col-sm-9 v-tab-pane2">
+                    <a class="v-tab-head2 v-tab-link2  active" data-target="#t21">System Architecture</a>
+                    <div id="t21" class="collapse show">
+                      <div style="margin:25px;">
+                        <ul class="list-icons">
+                          <li class="list-icon-text">
+                            <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                            Communication Systems
+                          </li>
+                          <li class="list-icon-text">
+                            <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                            VOIP Software Solution
+                          </li>
+                          <li class="list-icon-text">
+                            <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                            Multimedia Development
+                          </li>
+                          <li class="list-icon-text">
+                            <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                            ADAS systems
+                          </li>
+                          <li class="list-icon-text">
+                            <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                            Surveillance solutions
+                          </li>
+
+
+
+                        </ul>
+
+
+                      </div>
+
+                    </div>
+                    <a class="v-tab-head2 v-tab-link2" data-target="#t22">Algorithm Development </a>
+                    <div id="t22" class="collapse">
+                      <div style="margin:25px;">
+                        <ul class="list-icons">
+                          <li class="list-icon-text">
+                            <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                            Signal Processing
+                          </li>
+                          <li class="list-icon-text">
+                            <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                            Image Processing & computer Vision
+                          </li>
+                          <li class="list-icon-text">
+                            <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                            Network Stacks
+                          </li>
+
+                        </ul>
+                      </div>
+
+                    </div>
+                    <a class="v-tab-head2 v-tab-link2 " data-target="#t23">Tools</a>
+                    <div id="t23" class="collapse">
+                      <div style="margin:25px;">
+                        <ul class="list-icons">
+                          <li class="list-icon-text">
+                            <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                            MATLAB and LabVIEW
+                          </li>
+
+                        </ul>
+                      </div>
+
+                    </div>
+                    <a class="v-tab-head2 v-tab-link2" data-target="#t24">Porting</a>
+                    <div id="t24" class="collapse">
+                      <div style="margin:25px;">
+                        <ul class="list-icons">
+                          <li class="list-icon-text">
+                            <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                            Microcontrollers, DSPs, FPGAs
+                          </li>
+
+
+
+
+
+                        </ul>
+
+
+                      </div>
+
+                    </div>
+
+
+
+                  </div>
+                </div>
+              </div>
+            </section>
           </div>
-              </section>
-            </div>
+        </div>
 
-      <!-- </div> -->
-      <!-- <div class="tab-pane fade" id="pills-two" role="tabpanel" aria-labelledby="pills-two-tab"> -->
+      </div>
+      <div class="tab-pane fade" id="pills-three" role="tabpanel" aria-labelledby="pills-three-tab">
+        <div class="container-fluid">
+          <div class="features" id="features">
+            <section class="container" style="padding:30px 15px;">
+              <h2 class="page-sub-heading" style="text-align:left;"> Application Software Services</h2>
 
-      <!-- </div> -->
+
+              <div class="container">
+                <div class="row v-tabs1 " style="margin-top:30px;">
+                  <div class="col-sm-3 v-tab-head1">
+                    <a class="v-tab-link1  active" data-target="#t11">Web Development</a>
+                    <a class="v-tab-link1 " data-target="#t12">Tools And Frameworks</a>
+                    <a class="v-tab-link1" data-target="#t13">Web UI</a>
+                    <a class="v-tab-link1 " data-target="#t14">Desktop Development</a>
+                    <a class="v-tab-link1 " data-target="#t15">Database Development</a>
+                    <a class="v-tab-link1 " data-target="#t16">Mobile Development</a>
+
+                  </div>
+                  <div class="col-sm-9 v-tab-pane1">
+                    <a class="v-tab-head1 v-tab-link1  active" data-target="#t11">Web Development</a>
+                    <div id="t11" class="collapse show">
+                      <div style="margin:25px;">
+                        <ul class="list-icons">
+                          <li class="list-icon-text">
+                            <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                            Enterprise Applications : J2EE (JSP, Servlets, JSF, enterprise beans), ASP. Net Web Applications, SOAP based ASP.<br /> <span style="margin-left:30px;">Net Web Services, Java web Services etc.</span>
+                          </li>
+                          <li class="list-icon-text">
+                            <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                            SaaS & SOA : Architecture based application development
+                          </li>
+                          <li class="list-icon-text">
+                            <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                            Web/application Servers: Apache Tomcat, BEA Web Logic, IIS 6 & 7
+                          </li>
+                          <li class="list-icon-text">
+                            <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                            Cloud Applications: Development and deployment of applications for cloud infrastructure
+                          </li>
+
+
+
+                        </ul>
+
+
+                      </div>
+
+                    </div>
+                    <a class="v-tab-head1 v-tab-link1" data-target="#t12">Tools And Frameworks</a>
+                    <div id="t12" class="collapse">
+                      <div style="margin:25px;">
+                        <ul class="list-icons">
+                          <li class="list-icon-text">
+                            <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                            Programming Frameworks – J2SE, J2EE, Microsoft .NET
+                          </li>
+                          <li class="list-icon-text">
+                            <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                            Programming Languages – Java, C# & VB.Net and VB
+                          </li>
+                          <li class="list-icon-text">
+                            <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                            IDEs – Eclipse for Java, Visual Studio 2005, 2008, 2010 and 2013
+                          </li>
+                          <li class="list-icon-text">
+                            <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                            Installations – Install shield for windows Installer 2010
+                          </li>
+                        </ul>
+                      </div>
+
+                    </div>
+                    <a class="v-tab-head1 v-tab-link1 " data-target="#t13">Web UI</a>
+                    <div id="t13" class="collapse">
+                      <div style="margin:25px;">
+                        <ul class="list-icons">
+                          <li class="list-icon-text">
+                            <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                            HTML 4 & 5, XHTML and CSS 2.1 & 3
+                          </li>
+                          <li class="list-icon-text">
+                            <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                            JavaScript, VB Script, AJAX
+                          </li>
+                        </ul>
+                      </div>
+
+                    </div>
+                    <a class="v-tab-head1 v-tab-link1" data-target="#t14">Desktop Development</a>
+                    <div id="t14" class="collapse">
+                      <div style="margin:25px;">
+                        <ul class="list-icons">
+                          <li class="list-icon-text">
+                            <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                            .NET Applications: Windows Forms, Windows WPF
+                          </li>
+                          <li class="list-icon-text">
+                            <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                            Java : AWT and SWING applications
+                          </li>
+
+
+
+
+                        </ul>
+
+
+                      </div>
+
+                    </div>
+                    <a class="v-tab-head1 v-tab-link1" data-target="#t15">Database Development</a>
+                    <div id="t15" class="collapse">
+                      <div style="margin:25px;">
+                        <ul class="list-icons">
+                          <li class="list-icon-text">
+                            <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                            Databases: MS Access, Microsoft SQL Sever, MYSQL and Oracle
+                          </li>
+                          <li class="list-icon-text">
+                            <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                            Data Management: JDBC, Hibernate, ADO.Net and Language Integrated Query (LINQ)
+                          </li>
+                          <li class="list-icon-text">
+                            <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                            Data Structures: XML, XSD and XSLT
+                          </li>
+
+
+
+
+                        </ul>
+
+
+                      </div>
+
+                    </div>
+                    <a class="v-tab-head1 v-tab-link1" data-target="#t16">Mobile Development</a>
+                    <div id="t16" class="collapse">
+                      <div style="margin:25px;">
+                        <ul class="list-icons">
+                          <li class="list-icon-text">
+                            <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
+                            Android, iOS &Windows Mobile applications
+                          </li>
+
+
+
+                        </ul>
+
+
+                      </div>
+
+                    </div>
+
+
+
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+
+      </div>
     </div>
+
+
+
+    <!-- </div> -->
+    <!-- <div class="tab-pane fade" id="pills-two" role="tabpanel" aria-labelledby="pills-two-tab"> -->
+
+    <!-- </div> -->
   </div>
-  <div class="container-fluid">
-  <div class="features" id="features">
-    <section class="container" style="padding:60px 0">
-      <h2 class="page-sub-heading" style="text-align:left;"> Software Services</h2>
+  </div>
 
-
-<div class="container">
-      <div class="row v-tabs2 " style="margin-top:30px;">
-        <div class="col-sm-3 v-tab-head2">
-          <a class="v-tab-link2  active" data-target="#t21" style="padding-bottom:15px;" >System Architecture</a>
-          <a class="v-tab-link2 " data-target="#t22" style="padding-bottom:15px;">Algorithm Development</a>
-          <a class="v-tab-link2" data-target="#t23" style="padding-bottom:15px;">Tools</a>
-          <a class="v-tab-link2 " data-target="#t24" style="padding-bottom:15px;">Porting</a>
-
-
-        </div>
-        <div class="col-sm-9 v-tab-pane2">
-          <a class="v-tab-head2 v-tab-link2  active" data-target="#t21">System Architecture</a>
-          <div id="t21" class="collapse show">
-            <div style="margin:25px;">
-              <ul class="list-icons">
-                <li class="list-icon-text">
-                  <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                  Communication Systems
-                </li>
-                <li class="list-icon-text">
-                  <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                  VOIP Software Solution
-                </li>
-                <li class="list-icon-text">
-                  <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                   Multimedia Development
-                </li>
-                <li class="list-icon-text">
-                  <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                   ADAS systems
-                </li>
-                <li class="list-icon-text">
-                  <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                   Surveillance solutions
-                </li>
-
-
-
-              </ul>
-
-
-            </div>
-
-          </div>
-          <a class="v-tab-head2 v-tab-link2" data-target="#t22">Algorithm Development </a>
-          <div id="t22" class="collapse">
-            <div style="margin:25px;">
-              <ul class="list-icons">
-                <li class="list-icon-text">
-                  <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                  Signal Processing
-                </li>
-                <li class="list-icon-text">
-                  <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                   Image Processing & computer Vision
-                </li>
-                <li class="list-icon-text">
-                  <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                Network Stacks
-                </li>
-
-              </ul>
-            </div>
-
-          </div>
-          <a class="v-tab-head2 v-tab-link2 " data-target="#t23">Tools</a>
-          <div id="t23" class="collapse">
-            <div style="margin:25px;">
-              <ul class="list-icons">
-                <li class="list-icon-text">
-                  <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                   MATLAB and LabVIEW
-                </li>
-
-              </ul>
-            </div>
-
-          </div>
-          <a class="v-tab-head2 v-tab-link2" data-target="#t24">Porting</a>
-          <div id="t24" class="collapse">
-            <div style="margin:25px;">
-              <ul class="list-icons">
-                <li class="list-icon-text">
-                  <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                      Microcontrollers, DSPs, FPGAs
-                </li>
-
-
-
-
-
-              </ul>
-
-
-            </div>
-
-          </div>
-
-
-
-        </div>
-      </div>
-    </div>
-        </section>
-      </div>
-</div>
-
-  <div class="container-fluid">
-  <div class="features" id="features">
-    <section class="container" style="padding:30px 0">
-      <h2 class="page-sub-heading" style="text-align:left;"> Application Software Services</h2>
-
-
-<div class="container">
-      <div class="row v-tabs1 " style="margin-top:30px;">
-        <div class="col-sm-3 v-tab-head1">
-          <a class="v-tab-link1  active" data-target="#t11" >Web Development</a>
-          <a class="v-tab-link1 " data-target="#t12" >Tools And Frameworks</a>
-          <a class="v-tab-link1" data-target="#t13">Web UI</a>
-          <a class="v-tab-link1 " data-target="#t14" >Desktop Development</a>
-          <a class="v-tab-link1 " data-target="#t15" >Database Development</a>
-          <a class="v-tab-link1 " data-target="#t16">Mobile Development</a>
-
-        </div>
-        <div class="col-sm-9 v-tab-pane1">
-          <a class="v-tab-head1 v-tab-link1  active" data-target="#t11">Web Development</a>
-          <div id="t11" class="collapse show">
-            <div style="margin:25px;">
-              <ul class="list-icons">
-                <li class="list-icon-text">
-                  <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                  Enterprise Applications : J2EE (JSP, Servlets, JSF, enterprise beans), ASP. Net Web Applications, SOAP based ASP.<br /> <span style="margin-left:30px;">Net Web Services, Java web Services etc.</span>
-                </li>
-                <li class="list-icon-text">
-                  <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                  SaaS & SOA : Architecture based application development
-                </li>
-                <li class="list-icon-text">
-                  <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                  Web/application Servers: Apache Tomcat, BEA Web Logic, IIS 6 & 7
-                </li>
-                <li class="list-icon-text">
-                  <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                  Cloud Applications: Development and deployment of applications for cloud infrastructure
-                </li>
-
-
-
-              </ul>
-
-
-            </div>
-
-          </div>
-          <a class="v-tab-head1 v-tab-link1" data-target="#t12">Tools And Frameworks</a>
-          <div id="t12" class="collapse">
-            <div style="margin:25px;">
-              <ul class="list-icons">
-                <li class="list-icon-text">
-                  <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                  Programming Frameworks – J2SE, J2EE, Microsoft .NET
-                </li>
-                <li class="list-icon-text">
-                  <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                  Programming Languages – Java, C# & VB.Net and VB
-                </li>
-                <li class="list-icon-text">
-                  <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                  IDEs – Eclipse for Java, Visual Studio 2005, 2008, 2010 and 2013
-                </li>
-                <li class="list-icon-text">
-                  <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                  Installations – Install shield for windows Installer 2010
-                </li>
-              </ul>
-            </div>
-
-          </div>
-          <a class="v-tab-head1 v-tab-link1 " data-target="#t13">Web UI</a>
-          <div id="t13" class="collapse">
-            <div style="margin:25px;">
-              <ul class="list-icons">
-                <li class="list-icon-text">
-                  <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                  HTML 4 & 5, XHTML and CSS 2.1 & 3
-                </li>
-                <li class="list-icon-text">
-                  <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                  JavaScript, VB Script, AJAX
-                </li>
-              </ul>
-            </div>
-
-          </div>
-          <a class="v-tab-head1 v-tab-link1" data-target="#t14">Desktop Development</a>
-          <div id="t14" class="collapse">
-            <div style="margin:25px;">
-              <ul class="list-icons">
-                <li class="list-icon-text">
-                  <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                  .NET Applications: Windows Forms, Windows WPF
-                </li>
-                <li class="list-icon-text">
-                  <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                  Java : AWT and SWING applications
-                </li>
-
-
-
-
-              </ul>
-
-
-            </div>
-
-          </div>
-          <a class="v-tab-head1 v-tab-link1" data-target="#t15">Database Development</a>
-          <div id="t15" class="collapse">
-            <div style="margin:25px;">
-              <ul class="list-icons">
-                <li class="list-icon-text">
-                  <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                  Databases: MS Access, Microsoft SQL Sever, MYSQL and Oracle
-                </li>
-                <li class="list-icon-text">
-                  <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                  Data Management: JDBC, Hibernate, ADO.Net and Language Integrated Query (LINQ)
-                </li>
-                <li class="list-icon-text">
-                  <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                  Data Structures: XML, XSD and XSLT
-                </li>
-
-
-
-
-              </ul>
-
-
-            </div>
-
-          </div>
-          <a class="v-tab-head1 v-tab-link1" data-target="#t16">Mobile Development</a>
-          <div id="t16" class="collapse">
-            <div style="margin:25px;">
-              <ul class="list-icons">
-                <li class="list-icon-text">
-                  <i class="fa fa-arrow-right list-icon" aria-hidden="true"></i>
-                  Android, iOS &Windows Mobile applications
-                </li>
-
-
-
-              </ul>
-
-
-            </div>
-
-          </div>
-
-
-
-        </div>
-      </div>
-    </div>
-        </section>
-      </div>
-</div>
 
 
 
@@ -587,11 +612,13 @@
 
 
               <ul class="contact-info-list">
-                 <li><p class="map-text">
-                  <span> <i class="fa fa-phone contact-icon-footer" aria-hidden="true"></i>
-                    <span><strong>Address :</strong></span>
-                    Level G, Kalajyothi Building, Survey No:185,Masjid Banda, Kondapur, R.R. District, Hyderabad-500084.
-                </p></li>
+                <li>
+                  <p class="map-text">
+                    <span> <i class="fa fa-phone contact-icon-footer" aria-hidden="true"></i>
+                      <span><strong>Address :</strong></span>
+                      Level G, Kalajyothi Building, Survey No:185,Masjid Banda, Kondapur, R.R. District, Hyderabad-500084.
+                  </p>
+                </li>
                 <li>
                   <p class="map-text">
                     <span> <i class="fa fa-phone contact-icon-footer" aria-hidden="true"></i>
