@@ -174,3 +174,41 @@ var tabLinkToActivate1 = function(elem) {
   $('.v-tab-pane1').children('div').removeClass('show').parent().find(elem).addClass('show');
 
 };
+
+
+
+
+
+$('.v-tab-link2').mouseover(function() {
+
+
+  var target = $($(this).data('target')),
+    tabLink = $('.v-tab-link2[data-target="' + $(this).data('target') + '"]');
+
+  tabPanelToShow2(tabLink);
+  tabLinkToActivate2(target);
+
+});
+$('.v-tab-link2').click(function() {
+
+  var target = $($(this).data('target')),
+    tabLink = $('.v-tab-link2[data-target="' + $(this).data('target') + '"]');
+
+  tabPanelToShow2(tabLink);
+  tabLinkToActivate2(target);
+
+});
+
+
+
+
+var tabPanelToShow2 = function(elem) {
+
+  $('.v-tab-link2').removeClass('active').parent().find(elem).addClass('active');
+
+};
+
+var tabLinkToActivate2 = function(elem) {
+  $('.v-tab-pane2').children('div').removeClass('show').parent().find(elem).addClass('show');
+
+};
