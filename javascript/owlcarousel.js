@@ -3,12 +3,8 @@
 $('.owl-carousel').owlCarousel({
   autoplay: false,
   lazyLoad: true,
-  loop:true,
-  // margin: 20,
-
-  // responsiveClass: true,
+  loop:false,
   autoHeight: true,
-  //   slideBy: 3,
   autoplayTimeout: 7000,
   smartSpeed: 800,
   nav: true,
