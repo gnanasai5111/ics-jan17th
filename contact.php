@@ -1,6 +1,6 @@
 <?php
 if(isset($_POST['submit'])){
-    $to = "gnanasai9966250545@gmail.com"; // this is your Email address
+    $to = "career@icsglobal.biz"; // this is your Email address
     $from = $_POST['email']; // this is the sender's Email address
     $full_name = $_POST['full_name'];
     $email = $_POST['email'];
@@ -260,7 +260,7 @@ if(isset($_POST['submit'])){
     </div>
     <div class="copyrights">
       <div class="container">
-        <div class="copyright-text">© 2021 ICS Enterprises, PVT LTD.. All rights reserved</div>
+        <div class="copyright-text">© 2021 ICS Enterprises, Pvt Ltd. All rights reserved</div>
       </div>
     </div>
   </footer>
