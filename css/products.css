@@ -62,10 +62,13 @@ object-position: center;
 }
 @media (max-width:768px) {
   .each-product-img {
-    width: 120%;
+    width: 100%;
     height:100%;
   object-fit: cover;
   object-position: center !important;
+  }
+  .product-mobile-width{
+    width: 125%;
   }
   .each-product-box{
     overflow: hidden;
