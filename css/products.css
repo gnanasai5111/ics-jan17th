@@ -60,6 +60,7 @@
 object-fit: cover;
 object-position: center;
 }
+
 @media (max-width:768px) {
   .each-product-img {
     width: 100%;
@@ -69,17 +70,27 @@ object-position: center;
   }
   .product-mobile-width{
     width: 175%;
-    object-position: -135px 0 !important;
+    object-position: -240px 0 !important;
   }
   .product-mobile-width-industrial{
       width:235%;
-        object-position: -70px 0 !important;
+        object-position: -140px 0 !important;
   }
   .each-product-box{
     overflow: hidden;
   }
   .top-para{
     padding: 0.3rem !important
+  }
+}
+@media (max-width:420px) {
+  .product-mobile-width{
+    width: 175%;
+    object-position: -160px 0 !important;
+  }
+  .product-mobile-width-industrial{
+      width:235%;
+      object-position: -97px 0 !important;
   }
 }
 .each-product-container {
