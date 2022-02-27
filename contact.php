@@ -90,7 +90,7 @@ setTimeout(hideMessage,3000);
               <ul class="nav-dropdown">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="leadership.html">Leadership Team</a></li>
-                <li><a href="qualitystandards-awards.html">Quality Standards & Awards</a></li>
+                <!-- <li><a href="qualitystandards-awards.html">Quality Standards & Awards</a></li> -->
                 <li><a href="careers.html">Careers</a></li>
                 <li><a href="contact.php">Contact</a></li>
               </ul>
@@ -142,7 +142,7 @@ setTimeout(hideMessage,3000);
 
     </div>
     <div class="contact container paddingTopBottom">
-          <h2 class="page-sub-heading"><span>How can ICS help you?</span></h2>
+          <!-- <h2 class="page-sub-heading"><span>How can ICS help you?</span></h2>
           <div class="line">
 
           </div>
@@ -151,7 +151,7 @@ setTimeout(hideMessage,3000);
               Have something to say? We want to hear all about it.
 
 
-            </p>
+            </p> -->
             <p class="alignCenter para">
             If you have files to upload with your inquiry, please email us with your attachments at info@icsglobal.biz.
 
