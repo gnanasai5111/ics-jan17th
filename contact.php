@@ -142,8 +142,8 @@ setTimeout(hideMessage,3000);
 
     </div>
     <div class="contact container paddingTopBottom">
-          <!-- <h2 class="page-sub-heading"><span>How can ICS help you?</span></h2>
-          <div class="line">
+          <h2 class="page-sub-heading"><span>Reach out to us</span></h2>
+          <!-- <div class="line">
 
           </div>
           <div>

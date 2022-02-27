@@ -577,6 +577,7 @@
 
 .navigation-portrait .nav-dropdown > li > a {
   padding: 12px 20px 12px 30px;
+  white-space: pre-wrap;
 }
 
 .navigation-portrait .nav-dropdown > li > ul > li > a {

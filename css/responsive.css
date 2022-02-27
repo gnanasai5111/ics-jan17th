@@ -80,6 +80,9 @@ max-width: 100%;
   .ics-logo{
     height: 50px;
   }
+  .top-para{
+    font-size: 0.7rem;
+  }
   .home-overlay-sub-text{
     font-size: 0.8rem;
   }

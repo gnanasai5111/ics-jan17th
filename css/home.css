@@ -768,6 +768,7 @@ canvas {
 
   .features .v-tabs a.v-tab-head {
     display: block;
+    white-space: pre-wrap;
   }
 }
 /* pills */
