@@ -177,9 +177,7 @@ max-width: 100%;
   .page-heading{
     font-size: 1.75rem !important;
   }
-  .home-overlay-text{
-    font-size: 1.5rem !important;
-  }
+
   .owl-nav button.owl-prev{
     left: 6px;
   }

@@ -68,7 +68,12 @@ object-position: center;
   object-position: center !important;
   }
   .product-mobile-width{
-    width: 125%;
+    width: 175%;
+    object-position: -135px 0 !important;
+  }
+  .product-mobile-width-industrial{
+      width:235%;
+        object-position: -70px 0 !important;
   }
   .each-product-box{
     overflow: hidden;
