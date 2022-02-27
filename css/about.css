@@ -185,7 +185,7 @@
   background-position: center;
   background-size: cover;
   /* height: 420px; */
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   /* height: 325px; */
   height: 30vh;
   position: relative;
