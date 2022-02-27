@@ -126,13 +126,15 @@ $('.v-tab-link').click(function() {
 
 
 var tabPanelToShow = function(elem) {
-
   $('.v-tab-link').removeClass('active').parent().find(elem).addClass('active');
-
+    // $('.v-tab-link').toggleClass('active');
+    // $('.v-tab-link').parent().find(elem).toggleClass('active');
 };
 
 var tabLinkToActivate = function(elem) {
   $('.v-tab-pane').children('div').removeClass('show').parent().find(elem).addClass('show');
+  //   $('.v-tab-pane').children('div').toggleClass('show');
+  // $('.v-tab-pane').children('div').parent().find(elem).toggleClass('show');
 
 };
 
