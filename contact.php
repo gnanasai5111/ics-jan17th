@@ -140,6 +140,7 @@ setTimeout(hideMessage,3000);
         Contact
       </p>
 
+
     </div>
     <div class="contact container paddingTopBottom">
           <h2 class="page-sub-heading"><span>Reach out to us</span></h2>
