@@ -44,6 +44,11 @@
   <!-- font awesome icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <style>
+  .label-form::after {
+  content:" *";
+  color: red;
+}</style>
 
 </head>
 
@@ -148,11 +153,11 @@ The AM5728 SOM module is a tiny and fully usable of AM5728 processor functionali
     <div class="row">
           <div class="col-lg-6 col-md-12">
             <!-- <img src="images/sdr/4.jpg" alt="Software Defined Radio–(SDR) ORU" style="max-width:350px;width:100%;" class="product-img-each"> -->
-            <img class="product-img-each" src="images/TOP.jpg" alt="AM5728 SOM Module" style="max-width:300px;width:100%;margin-top:45px;">
+            <img class="product-img-each" src="images/TOP.jpg" alt="AM5728 SOM Module" style="max-width:300px;width:100%;margin-top:45px;height:300px;">
           </div>
           <div class="col-lg-4 col-md-12">
             <!-- <img src="images/sdr/3.jpg" alt="Software Defined Radio–(SDR)" style="max-width:600px;width:100%;" class="product-img-each"> -->
-                <img class="product-img-each" src="images/BACK.jpg" alt="AM5728 SOM Module" style="max-width:300px;width:100%;margin-top:45px;">
+                <img class="product-img-each" src="images/BACK.jpg" alt="AM5728 SOM Module" style="max-width:300px;width:100%;margin-top:45px;height:300px;">
 
           </div>
 
@@ -200,7 +205,7 @@ The AM5728 SOM module is a tiny and fully usable of AM5728 processor functionali
 
 
   <div class="features" id="features">
-            <section class="container" style="padding:30px 0">
+            <section class="container"
               <h2 class="page-sub-heading" style="text-align:left;margin-bottom:20px;"><span>Specifications</span></h2>
 
           <div class="container">
@@ -336,7 +341,7 @@ The AM5728 SOM module is a tiny and fully usable of AM5728 processor functionali
           </div>
         </section>
         </div>
-        <section class="container" style="padding:30px 0">
+        <section class="container" style="margin-top:30px">
           <h2 class="page-sub-heading" style="text-align:left;margin-bottom:20px;padding-bottom:30px"><span>Plese fill the form to download the detailed specification sheet</span></h2>
           <div class="row">
             <div class="col-lg-12">
@@ -346,43 +351,50 @@ The AM5728 SOM module is a tiny and fully usable of AM5728 processor functionali
 
                   <div class="col-12">
                     <div class="form-group">
+                      <label class="label-form"><strong>Name:</strong></label>
                       <input class="form-control" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder="Enter your name" required>
                     </div>
                   </div>
 
                   <div class="col-12">
                     <div class="form-group">
+                      <label class="label-form"><strong>Company:</strong></label>
                       <input class="form-control" name="companyName" id="companyName" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Company name'" placeholder="Enter Company name">
                     </div>
                   </div>
                   <div class="col-12">
                     <div class="form-group">
+                      <label class="label-form"><strong>Designation:</strong></label>
                       <input class="form-control" name="designation" id="designation" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Designation'" placeholder="Enter Designation" required>
                     </div>
                   </div>
                   <div class="col-12">
                     <div class="form-group">
+                      <label class="label-form"><strong>Email:</strong></label>
                       <input class="form-control" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" placeholder="Enter email address" required>
                     </div>
                   </div>
                   <div class="col-12">
                     <div class="form-group">
+                      <label class="label-form"><strong>Mobile Number:</strong></label>
                       <input class="form-control" name="phone" id="phone" type="number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Mobile number'" placeholder="Enter Mobile number" required>
                     </div>
                   </div>
                   <div class="col-12">
                     <div class="form-group">
+                      <label class="label-form"><strong>Application:</strong></label>
                       <input class="form-control" name="application" id="application" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Application'" placeholder="Enter Application" required>
                     </div>
                   </div>
                   <div class="col-12">
                     <div class="form-group">
+                      <label ><strong>Comments:</strong>(optional)</label>
                       <textarea class="form-control w-100" name="comments" id="comments" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Comments'" placeholder="Enter Comments"></textarea>
                     </div>
                   </div>
                 </div>
                 <div class="form-group mt-3">
-                  <button type="submit" class="button button-contactForm" >Send Message</button>
+                  <button type="submit" class="button button-contactForm" >Submit</button>
                 </div>
 
               </form>
