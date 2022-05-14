@@ -160,8 +160,11 @@ setTimeout(hideMessage,3000);
             </p>
 
           </div>
+          <div style="height:300px">
+            
+          </div>
 
-          <div class="container " style="margin-top:30px;">
+          <!-- <div class="container " style="margin-top:30px;">
 
 
     <div class="row">
@@ -205,7 +208,7 @@ if(isset($_POST['submit'])){
       </div>
 
     </div>
-  </div>
+  </div> -->
 
         </div>
 
