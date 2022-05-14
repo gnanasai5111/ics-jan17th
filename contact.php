@@ -161,7 +161,7 @@ setTimeout(hideMessage,3000);
 
           </div>
           <div style="height:300px">
-            
+
           </div>
 
           <!-- <div class="container " style="margin-top:30px;">
@@ -198,12 +198,12 @@ setTimeout(hideMessage,3000);
             <button type="submit" name="submit" class="button button-contactForm">Send Message</button>
           </div>
           <?php
-if(isset($_POST['submit'])){
-
-    echo "<span style='color:#1D58A8' id='connectMsg'>Mail Sent. Thank you " . $full_name . ", we will contact you shortly.</span>";
-    // You can also use header('Location: thank_you.php'); to redirect to another page.
-    }
-?>
+// if(isset($_POST['submit'])){
+//
+//     echo "<span style='color:#1D58A8' id='connectMsg'>Mail Sent. Thank you " . $full_name . ", we will contact you shortly.</span>";
+//
+//     }
+// ?>
         </form>
       </div>
 
